@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)reagir:(id)sender {
+    NSString *lemessage = [[NSString alloc] initWithFormat:@"Bravo !"];
+    _message.text = lemessage;
+}
+
 @end

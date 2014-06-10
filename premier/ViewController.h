@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *message;
+
+
+- (IBAction)reagir:(id)sender;
+
 @end
